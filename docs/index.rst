@@ -376,6 +376,17 @@ This is useful to bypass the customization of the entire search AJAX call.
     });
 
 
+CSS customization
+*****************
+
+The matching parts of the results are marked with <b>...</b>. To change the font color add this to your CSS:
+
+.. code-block:: css
+
+   .bootstrap-autocomplete b {
+       color: red;
+    }
+
 
 Demo and Examples
 -----------------
